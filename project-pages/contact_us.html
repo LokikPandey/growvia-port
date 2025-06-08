@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+  <section class="contact-us">
+    <div class="contact-info">
+      <h2>GET IN TOUCH</h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <h3>ADDRESS</h3>
+          <p>Weifield Group Contracting<br>1700 York Street<br>Denver, CO 80223</p>
+          <p>Northern Division Office<br>2720 Autumn Drive<br>Windsor, CO 80550</p>
+        </div>
+        <div class="contact-item">
+          <h3>PHONE</h3>
+          <p>Weifield Group Contracting: 103-262-2189</p>
+          <p>Weifield 24/7 Service: 303-999-5555</p>
+        </div>
+        <div class="contact-item">
+          <h3>EMAIL</h3>
+          <p>Request for Proposal: <a href="mailto:proposals@weifieldgroup.com">proposals@weifieldgroup.com</a></p>
+          <p>General Service Calls: <a href="mailto:service@weifieldgroup.com">service@weifieldgroup.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h2>Message Us</h2>
+      <p>If you wish to be contacted regarding our services, please fill out the form below.</p>
+      <form action="https://formspree.io/f/xblydnov" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required>
+
+        <label for="message">Comment</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="hidden" name="_to" value="lokikpandey@gmail.com">
+
+        <button type="submit">Send Message</button>
+      </form>
+      </div>
+  </section>
+</body>
+</html>

@@ -70,9 +70,13 @@ a.button {
 }
 
 a.button:hover {
-  text-decoration: underline;
+  /* text-decoration: underline;
+   */
   text-decoration-thickness: 2px;
-  cursor: pointer;
+  color:white;
+  background-color: #141414;
+  transition: all 300ms ease-in;
+  cursor: pointer;
 }
 
 

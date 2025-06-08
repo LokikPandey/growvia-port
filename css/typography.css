@@ -23,13 +23,20 @@ body {
 }
 
 .subheader-text {
-  font-size: 20px;
+  /* text-decoration: underline; */
+  font-size: 25px;
   font-weight: 700;
+  /* width: 10px; */
 }
 
 .body-text {
   font-size: 16px;
   font-weight: 500;
+}
+
+.body-text-1 {
+  font-size: 16px;
+  font-weight: 550;
 }
 
 .project-card-text {
